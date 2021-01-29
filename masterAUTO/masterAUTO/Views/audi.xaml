@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterAUTO.Views.audi">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image x:Name="kartinka"></Image>
+            <Label x:Name="header" Text="Модели Audi:" FontSize="Medium" />
+            <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>AUDI RS6 C7</x:String>
+                    <x:String>AUDI RS4 B8</x:String>
+                    <x:String>AUDI S8 D3</x:String>
+                    <x:String>AUDI RS3 8PA</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

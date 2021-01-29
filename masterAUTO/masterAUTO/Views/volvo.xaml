@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterAUTO.Views.volvo">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image x:Name="kartinka"></Image>
+            <Label x:Name="header" Text="Модели Volvo:" FontSize="Medium" />
+            <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>Volvo V70 T5 2.4T</x:String>
+                    <x:String>Volvo XC90 2.4</x:String>
+                    <x:String>Volvo S90</x:String>
+                    <x:String>Volvo S80</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

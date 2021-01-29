@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterAUTO.Views.toyota">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image x:Name="kartinka"></Image>
+            <Label x:Name="header" Text="Модели Toyota:" FontSize="Medium" />
+            <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged">
+                <Picker.Items>
+                    <x:String>Toyota Land Cruiser 200</x:String>
+                    <x:String>Toyota Camry vx40</x:String>
+                    <x:String>Toyota Chaser</x:String>
+                    <x:String>Toyota Mark 2</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
